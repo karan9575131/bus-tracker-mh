@@ -1,117 +1,79 @@
-🚀 Features
+Features
 
-View available bus routes across Maharashtra
+Display available bus routes and their stops
 
-Choose boarding and destination stops
+Interactive selection of boarding and destination stops
 
-Calculates:
+Calculate total distance between stops
 
-Total travel distance
+Estimate travel time based on an average bus speed
 
-Estimated travel time (based on avg speed = 55 km/h)
+Simulate next bus arrival time
 
-Next bus arrival (random 1–10 min simulation)
+User-friendly command-line interface
 
-Fully interactive command-line interface
+Bus Routes Included
 
-Simple loop-based implementation (no advanced libraries needed)
-
-📌 Example Routes Included
-South Maharashtra
+South Maharashtra:
 
 Stops: wai → akkalcoate → satara → mahabaleshwar
 
 Distances (km): 115, 45, 38
 
-Central Maharashtra
+Central Maharashtra:
 
 Stops: pune → nashik → chakan → rajgurunagar → narayangao
 
 Distances (km): 57, 111, 203, 115
 
-North Maharashtra
+North Maharashtra:
 
 Stops: dhule → shirpur → jalgaon
 
 Distances (km): 99, 116
 
-📂 Project Structure
-📦 Bus Route Simulator
- └── transport_system.py
+How the System Works
 
-🧠 How It Works
+The system displays all available bus routes.
 
-User selects a bus route
+Users select a route and then choose boarding and destination stops.
 
-User selects start & destination stops
+The system calculates the total distance between stops.
 
-Program calculates:
+It estimates travel time using an average bus speed of 55 km/h.
 
-Total distance by summing segments
+A random next bus arrival time is generated for simulation.
 
-Travel time using formula:
+A complete travel summary is displayed including distance, estimated time, and next bus arrival.
 
-time (minutes) = (distance / 55 km/h) * 60
+Python Concepts Used
 
+Variables, lists, and dictionaries
 
-Random bus arrival time (1–10 minutes) is generated
+Loops and conditional statements
 
-A travel summary is printed
+Functions and modular programming
 
-▶️ Running the Program
+Random number generation for simulating bus arrivals
 
-Ensure you have Python 3 installed.
+User input handling
 
-Run the script:
-python transport_system.py
+Arithmetic operations and string formatting
 
-📷 Sample Output
-=== BUS ARRIVAL maharashtra ===
+Applications
 
-Available Bus Routes:
-1. South maharashtra
-2. Central maharashtra
-3. North maharashtra
+Educational tool for learning Python programming
 
-Select a route number: 1
+Simple simulation of public transport systems
 
-You selected: South maharashtra
-Stops: wai → akkalcoate → satara → mahabaleshwar
+Helps users understand route distances and travel times
 
-Choose your boarding stop:
-1. wai
-2. akkalcoate
-3. satara
-4. mahabaleshwar
-Start stop number: 1
+Future Enhancements
 
-Choose your destination stop:
-1. wai
-2. akkalcoate
-3. satara
-4. mahabaleshwar
-Destination stop number: 3
+Integrate a graphical user interface (GUI) or mobile app
 
-=== RESULT ===
-Next bus arrives in: 7 minutes
-Distance between stops: 160 km
-Estimated travel time: 175 minutes
+Add real-time bus tracking
 
-Have a safe journey!
+Include more routes and stops
 
-🛠️ Technologies Used
-
-Python 3
-
-Built-in modules only (random)
-
-🤝 Contributions
-
-Contributions, suggestions, and improvements are welcome!
-Feel free to fork this repository and submit a pull request.
-
-📜 License
-
-This project is licensed under the MIT License.
-Author-
-Karan Kumar Gupta
+Add fare calculation and scheduling features
